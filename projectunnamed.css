@@ -1,0 +1,112 @@
+body {
+    background-color: bisque;
+}
+.image {
+    position:relative;
+    right: 10%;
+    background-color: rgb(247, 189, 102);
+    border: solid;
+    padding: 10%;
+    width: 100%;
+    height: 70%;
+}
+.cardDiv {
+    display: flex;
+    justify-content: space-evenly;
+}
+.cardContainer {
+    margin: 4%;
+    display: flex;
+    width: 100%;
+}
+.answer {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    position: relative;
+}
+.buyCard {
+    border-style: solid;
+    background-color: white;
+    margin:auto;
+    width: 600px;
+    height: 800px;
+}
+.buyCard img{
+    border-style: solid;
+    display: block;
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    margin-top: 45px;
+}
+.titleText {
+    border-style: solid;
+    margin: 10px 57px 20px;
+    text-align: center;
+    font-size: 35px;
+}
+.quanContainer {
+    margin-right: 50px;
+    text-align: end;
+}
+.price {
+    position:relative;
+    left: 50px;
+    bottom: 46px;
+}
+.addCart {
+    font-size: larger;
+    background-color: rgb(247, 189, 102);
+    display: block;
+    margin: auto;
+    border: solid;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+}
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+}
+.navLink {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 5px;
+    display: inline flex;
+    padding: 5px;
+}
+#logo {
+    width: 10%;
+    height: 100%;
+    object-fit:scale-down;
+}
+h1 {
+    display: block;
+    text-align: center;
+    margin: 25px;
+}
+#navBar {
+    justify-content: space-around;
+    align-items : center;
+    width : 100%;
+    height : 70px;
+    border-bottom : 2px solid black;
+    display: flex;
+}
+#bannerImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+#banner {
+    position: relative;
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
